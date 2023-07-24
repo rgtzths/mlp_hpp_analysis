@@ -1,0 +1,54 @@
+activation_functions,batch_size,hidden_layer_dims,loss,optimizer,learning_rate,Performance (Avg),Training Time (Avg),Prediction Time (Avg)
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[64, 64, 64, 64, 64]",mean_squared_error,adam,0.001,-90.874,6.282,0.126
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[128, 128, 128, 128, 128]",mean_squared_error,adam,0.001,-94.493,5.558,0.12
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[256, 256, 256, 256, 256]",mean_squared_error,adam,0.001,-85.009,5.901,0.123
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[512, 512, 512, 512, 512]",mean_squared_error,adam,0.001,-90.66,4.855,0.124
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[1024, 1024, 1024, 1024, 1024]",mean_squared_error,adam,0.001,-101.898,9.35,0.121
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[64, 64, 64, 64, 64, 64]",mean_squared_error,adam,0.001,-91.894,6.696,0.126
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[128, 128, 128, 128, 128, 128]",mean_squared_error,adam,0.001,-87.651,6.303,0.126
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[256, 256, 256, 256, 256, 256]",mean_squared_error,adam,0.001,-90.838,5.293,0.129
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[512, 512, 512, 512, 512, 512]",mean_squared_error,adam,0.001,-95.002,5.458,0.129
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[1024, 1024, 1024, 1024, 1024, 1024]",mean_squared_error,adam,0.001,-90.482,9.753,0.126
+"['relu', 'relu', 'relu', 'relu']",1024,"[64, 64, 64, 64]",mean_squared_error,adam,0.001,-102.241,5.74,0.112
+"['relu', 'relu', 'relu', 'relu']",1024,"[128, 128, 128, 128]",mean_squared_error,adam,0.001,-104.177,5.811,0.117
+"['relu', 'relu', 'relu', 'relu']",1024,"[256, 256, 256, 256]",mean_squared_error,adam,0.001,-88.689,5.667,0.114
+"['relu', 'relu', 'relu', 'relu']",1024,"[512, 512, 512, 512]",mean_squared_error,adam,0.001,-90.848,5.163,0.118
+"['relu', 'relu', 'relu', 'relu']",1024,"[1024, 1024, 1024, 1024]",mean_squared_error,adam,0.001,-93.424,6.961,0.114
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[64, 64, 64, 64, 64, 64, 64]",mean_squared_error,adam,0.001,-96.199,6.609,0.135
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[128, 128, 128, 128, 128, 128, 128]",mean_squared_error,adam,0.001,-84.578,6.478,0.136
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[256, 256, 256, 256, 256, 256, 256]",mean_squared_error,adam,0.001,-92.751,5.248,0.135
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[512, 512, 512, 512, 512, 512, 512]",mean_squared_error,adam,0.001,-91.477,5.422,0.137
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[1024, 1024, 1024, 1024, 1024, 1024, 1024]",mean_squared_error,adam,0.001,-98.256,10.42,0.132
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[64, 64, 64, 64, 64, 64, 64, 64]",mean_squared_error,adam,0.001,-90.722,6.848,0.14
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[128, 128, 128, 128, 128, 128, 128, 128]",mean_squared_error,adam,0.001,-85.493,5.747,0.14
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[256, 256, 256, 256, 256, 256, 256, 256]",mean_squared_error,adam,0.001,-84.232,5.614,0.142
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[512, 512, 512, 512, 512, 512, 512, 512]",mean_squared_error,adam,0.001,-92.184,5.606,0.137
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024]",mean_squared_error,adam,0.001,-89.952,9.382,0.14
+"['sigmoid', 'sigmoid', 'sigmoid', 'sigmoid', 'sigmoid', 'sigmoid', 'sigmoid']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-172.477,7.88,0.127
+"['softmax', 'softmax', 'softmax', 'softmax', 'softmax', 'softmax', 'softmax']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-226.489,8.496,0.123
+"['softplus', 'softplus', 'softplus', 'softplus', 'softplus', 'softplus', 'softplus']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-62.421,6.128,0.2
+"['softsign', 'softsign', 'softsign', 'softsign', 'softsign', 'softsign', 'softsign']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-164.565,7.799,0.124
+"['tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh', 'tanh']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-164.485,7.743,0.128
+"['selu', 'selu', 'selu', 'selu', 'selu', 'selu', 'selu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-59.748,3.621,0.128
+"['elu', 'elu', 'elu', 'elu', 'elu', 'elu', 'elu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-62.2,4.0,0.125
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_absolute_error,adam,0.001,-76.993,5.059,0.128
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_absolute_percentage_error,adam,0.001,-101.88,6.793,0.126
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_logarithmic_error,adam,0.001,-89.71,6.779,0.129
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,sgd,0.001,0.0,0.862,0.133
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,rmsprop,0.001,-104.225,5.11,0.132
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adadelta,0.001,-111.621,5.103,0.128
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adagrad,0.001,-111.058,6.948,0.129
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adamax,0.001,-95.561,7.987,0.121
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,nadam,0.001,-104.118,7.282,0.131
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,ftrl,0.001,-112.795,7.687,0.125
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",64,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-75.582,44.903,0.175
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",128,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-75.822,30.079,0.155
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",256,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-75.499,16.028,0.141
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-87.537,8.74,0.133
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-84.045,4.67,0.132
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",2048,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-96.668,3.859,0.129
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",4096,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.001,-100.139,3.014,0.122
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,1e-05,-126.352,7.502,0.116
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.0001,-107.833,7.622,0.116
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.01,-104.362,4.782,0.118
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",1024,"[352, 32, 288, 32, 544, 704, 96]",mean_squared_error,adam,0.1,-214.509,1.186,0.119

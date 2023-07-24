@@ -1,0 +1,53 @@
+activation_functions,batch_size,hidden_layer_dims,loss,optimizer,learning_rate,Performance (Avg),Training Time (Avg),Prediction Time (Avg)
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[64, 64, 64, 64, 64]",categorical_crossentropy,adam,0.001,0.675,26.503,0.164
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[128, 128, 128, 128, 128]",categorical_crossentropy,adam,0.001,0.731,33.392,0.179
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[256, 256, 256, 256, 256]",categorical_crossentropy,adam,0.001,0.788,31.775,0.172
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[512, 512, 512, 512, 512]",categorical_crossentropy,adam,0.001,0.819,34.361,0.183
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[1024, 1024, 1024, 1024, 1024]",categorical_crossentropy,adam,0.001,0.817,45.773,0.172
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[64, 64, 64, 64, 64, 64, 64, 64]",categorical_crossentropy,adam,0.001,0.721,35.024,0.2
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[128, 128, 128, 128, 128, 128, 128, 128]",categorical_crossentropy,adam,0.001,0.765,32.999,0.192
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[256, 256, 256, 256, 256, 256, 256, 256]",categorical_crossentropy,adam,0.001,0.782,32.785,0.198
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[512, 512, 512, 512, 512, 512, 512, 512]",categorical_crossentropy,adam,0.001,0.8,40.5,0.197
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024]",categorical_crossentropy,adam,0.001,0.828,74.544,0.199
+"['relu', 'relu', 'relu', 'relu']",512,"[64, 64, 64, 64]",categorical_crossentropy,adam,0.001,0.594,13.018,0.173
+"['relu', 'relu', 'relu', 'relu']",512,"[128, 128, 128, 128]",categorical_crossentropy,adam,0.001,0.646,18.729,0.169
+"['relu', 'relu', 'relu', 'relu']",512,"[256, 256, 256, 256]",categorical_crossentropy,adam,0.001,0.791,31.034,0.167
+"['relu', 'relu', 'relu', 'relu']",512,"[512, 512, 512, 512]",categorical_crossentropy,adam,0.001,0.787,32.758,0.173
+"['relu', 'relu', 'relu', 'relu']",512,"[1024, 1024, 1024, 1024]",categorical_crossentropy,adam,0.001,0.802,37.641,0.17
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[64, 64, 64, 64, 64, 64]",categorical_crossentropy,adam,0.001,0.642,25.782,0.187
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[128, 128, 128, 128, 128, 128]",categorical_crossentropy,adam,0.001,0.77,35.363,0.181
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[256, 256, 256, 256, 256, 256]",categorical_crossentropy,adam,0.001,0.817,39.036,0.186
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[512, 512, 512, 512, 512, 512]",categorical_crossentropy,adam,0.001,0.81,34.942,0.257
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[1024, 1024, 1024, 1024, 1024, 1024]",categorical_crossentropy,adam,0.001,0.816,50.967,0.188
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[64, 64, 64, 64, 64, 64, 64]",categorical_crossentropy,adam,0.001,0.708,34.86,0.191
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[128, 128, 128, 128, 128, 128, 128]",categorical_crossentropy,adam,0.001,0.778,37.149,0.187
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[256, 256, 256, 256, 256, 256, 256]",categorical_crossentropy,adam,0.001,0.767,32.254,0.194
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[512, 512, 512, 512, 512, 512, 512]",categorical_crossentropy,adam,0.001,0.812,33.842,0.188
+"['relu', 'relu', 'relu', 'relu', 'relu', 'relu', 'relu']",512,"[1024, 1024, 1024, 1024, 1024, 1024, 1024]",categorical_crossentropy,adam,0.001,0.814,61.609,0.201
+"['sigmoid', 'sigmoid', 'sigmoid', 'sigmoid', 'sigmoid']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.525,15.843,0.166
+"['softmax', 'softmax', 'softmax', 'softmax', 'softmax']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.0,4.532,0.161
+"['softplus', 'softplus', 'softplus', 'softplus', 'softplus']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.807,33.716,0.166
+"['softsign', 'softsign', 'softsign', 'softsign', 'softsign']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.589,19.013,0.17
+"['tanh', 'tanh', 'tanh', 'tanh', 'tanh']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.371,13.371,0.166
+"['selu', 'selu', 'selu', 'selu', 'selu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.808,36.967,0.169
+"['elu', 'elu', 'elu', 'elu', 'elu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.817,38.157,0.171
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,sgd,1e-05,0.416,38.571,0.164
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,rmsprop,0.001,0.584,32.812,0.184
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adadelta,0.001,0.432,42.021,0.173
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adagrad,0.001,0.602,41.351,0.18
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adamax,0.001,0.801,40.37,0.177
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,nadam,0.001,0.792,69.068,0.254
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,ftrl,0.001,0.462,40.016,0.185
+"['relu', 'relu', 'relu', 'relu', 'relu']",64,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.455,128.511,0.387
+"['relu', 'relu', 'relu', 'relu', 'relu']",128,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.783,149.853,0.261
+"['relu', 'relu', 'relu', 'relu', 'relu']",256,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.798,67.352,0.203
+"['relu', 'relu', 'relu', 'relu', 'relu']",1024,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.711,14.108,0.17
+"['relu', 'relu', 'relu', 'relu', 'relu']",2048,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.769,11.097,0.17
+"['relu', 'relu', 'relu', 'relu', 'relu']",4096,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.685,6.661,0.16
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",binary_crossentropy,adam,0.001,0.803,34.745,0.14
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",sparse_categorical_crossentropy,adam,0.001,0.807,36.581,0.136
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,1e-05,0.629,39.23,0.171
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.0001,0.792,41.369,0.169
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.001,0.812,37.381,0.173
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.01,0.587,11.855,0.173
+"['relu', 'relu', 'relu', 'relu', 'relu']",512,"[96, 224, 224, 608, 672]",categorical_crossentropy,adam,0.1,-0.001,4.987,0.172
