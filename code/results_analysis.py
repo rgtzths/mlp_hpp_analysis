@@ -6,9 +6,9 @@ from sklearn.preprocessing import LabelEncoder
 np.random.seed(42)
 le = LabelEncoder()
 
-datasets = ["abalone", "bike_sharing", "compas", "covertype", "delays_zurich", "higgs"]
-#datasets = ["abalone", "bike_sharing", "delays_zurich"]
-#datasets = ["compas", "covertype", "higgs"]
+datasets = {"All Datasets" : ["abalone", "bike_sharing", "compas", "covertype", "delays_zurich", "higgs"],
+            "Regression" : ["abalone", "bike_sharing", "delays_zurich"],
+            "Classification" : ["compas", "covertype", "higgs"]}
 
 metrics = ["Performance", "Training time", "Inference time"]
 average = []

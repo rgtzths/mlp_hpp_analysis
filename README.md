@@ -9,7 +9,7 @@ Install `requirements.txt` by using the command `pip install -r requirements.txt
 
 1. Write various `.json` files with the experiments you want to perform.
 
-2. Run the experiments using the comand `python code/run.py --hyper path_to_the_folder -o path_to_the_output_file`
+2. Run the experiments using the comand `python code/run.py --hyper path_to_the_folder`
 
 ## Execute the experiments performed in the paper
 
