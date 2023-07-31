@@ -7,8 +7,7 @@
     ["softsign", "softsign", "softsign", "softsign", "softsign", "softsign", "softsign"],
     ["tanh", "tanh", "tanh", "tanh", "tanh", "tanh", "tanh"],
     ["selu", "selu", "selu", "selu", "selu", "selu", "selu"],
-    ["elu", "elu", "elu", "elu", "elu", "elu", "elu"],
-    ["exponential", "exponential", "exponential", "exponential", "exponential", "exponential", "exponential"]
+    ["elu", "elu", "elu", "elu", "elu", "elu", "elu"]
     ],
     "classifier__dropouts": [[0, 0, 0.38439188236243105, 0.017685469924106228, 0, 0.14965289095604717, 0]],
     "classifier__task_activation":["linear"],
