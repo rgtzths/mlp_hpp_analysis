@@ -11,7 +11,7 @@ from metrics import mcc
 from search import search
 from sklearn.utils import shuffle
 
-tf.keras.utils.set_random_seed(1)
+tf.keras.utils.set_random_seed(42)
 
 def get_model(model_name, is_categorical):
     '''
@@ -105,6 +105,7 @@ for f in hyper_files:
         jobs[dataset] = {"hyper_set" : [params], "scorer" : scorer, "output" : output}
 
     params["classifier__callbacks"] = [[tf.keras.callbacks.EarlyStopping(monitor='loss', patience=10)]]
+
 '''
     Load the dataset and run experiment
 '''
@@ -130,7 +131,7 @@ for dataset in jobs:
     x_train, y_train = train_data
 
     if len(x_train) > 100000:
-        x_train, y_train = shuffle(x_train, y_train, random_state=42, n_samples=50000)
+        x_train, y_train = shuffle(x_train, y_train, random_state=42, n_samples=100000)
     
     for hyper_set in jobs[dataset]["hyper_set"]:
         hyper_set["classifier__input_shape"] = [x_train.shape[1:]]

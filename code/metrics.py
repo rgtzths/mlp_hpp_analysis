@@ -1,6 +1,5 @@
 import numpy as np
-from sklearn.metrics import make_scorer, matthews_corrcoef, mean_squared_error
-
+from sklearn.metrics import make_scorer, matthews_corrcoef
 
 def mcc():
 
