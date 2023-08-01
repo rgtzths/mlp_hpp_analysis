@@ -11,8 +11,9 @@ datasets = {"All Datasets" : ["abalone", "bike_sharing", "compas", "covertype", 
             "Classification" : ["compas", "covertype", "higgs"]}
 
 metrics = ["Performance", "Training time", "Inference time"]
-average = []
+
 for test in datasets:
+    average = []
     for dataset in datasets[test]:
         print(f"| | {dataset.capitalize()} | | |")
         print(f"| Hyperparameter | Performance | Training Time | Inference Time |")

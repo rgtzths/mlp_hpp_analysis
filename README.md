@@ -52,27 +52,27 @@ These are the results of the fANOVA analysis.
 
 #### Importance by dataset type
 
-| |**Classification**| | |
+| | **Classification** | | |
 |---|---|---| ---- |
 | Hyperparameter | Performance | Training Time | Inference Time |
-| activation_functions | 78.09 | 12.18 | 32.23 | 
-| batch_size | 7.69 | 234.05 | 150.0 | 
-| loss | 53.14 | 0.78 | 7.97 | 
-| optimizer | 54.26 | 22.45 | 8.98 | 
-| learning_rate | 74.78 | 12.82 | 5.95 | 
-| hidden_layer_dim | 16.12 | 10.57 | 64.82 | 
-| hidden_layer_size | 14.23 | 13.9 | 25.3 |
+| activation_functions | 17.59 | 2.91 | 2.28 | 
+| batch_size | 1.31 | 57.3 | 37.43 | 
+| loss | 9.16 | 0.01 | 3.76 | 
+| optimizer | 17.11 | 3.78 | 4.53 | 
+| learning_rate | 21.4 | 4.69 | 0.01 | 
+| hidden_layer_dim | 6.13 | 0.67 | 19.37 | 
+| hidden_layer_size | 3.04 | 5.2 | 8.54 |
 
 | | **Regression** | | |
 |---|---|---| ---- |
 | Hyperparameter | Performance | Training Time | Inference Time |
-| activation_functions | 60.5 | 9.27 | 29.96 | 
-| batch_size | 6.38 | 176.75 | 112.57 | 
-| loss | 43.97 | 0.77 | 4.21 | 
-| optimizer | 37.15 | 18.67 | 4.45 | 
-| learning_rate | 53.38 | 8.14 | 5.94 | 
-| hidden_layer_dim | 9.99 | 9.9 | 45.45 | 
-| hidden_layer_size | 11.19 | 8.7 | 16.76 | 
+| activation_functions | 23.66 | 2.87 | 15.98 | 
+| batch_size | 4.49 | 64.87 | 37.22 | 
+| loss | 19.51 | 0.12 | 0.01 | 
+| optimizer | 7.4 | 8.33 | 0.12 | 
+| learning_rate | 18.09 | 1.38 | 3.26 | 
+| hidden_layer_dim | 2.1 | 2.2 | 12.22 | 
+| hidden_layer_size | 3.32 | 1.48 | 4.18 | 
 
 #### Importance per dataset
 
