@@ -24,6 +24,30 @@ To preprocess them run `python code/results_preprocess.py` which should create t
 
 After that to obtain the importance of the hyperparameters run `python code/results_analysis.py` which should present the importance by dataset and the average of the six datasets.
 
+## Results
+
+Here we present the results that are available in the paper and an additional analysis of the obtained results.
+
+If there is any analysis missing that the reader might desire to perform, the complete data obtained from the runs is available in the `results` folder, or the reader might run the experiments him self.
+
+### Hyperparameter importance
+
+These are the results of the fANOVA analysis.
+
+#### General Importance
+
+#### Importance by dataset type
+
+#### Importance per dataset
+
+### Performance metrics
+
+#### Best performing hyperparameter combination per dataset
+
+#### Baseline vs Best vs Worst performance comparison
+
+
+
 ## Authors
 
 * **Rafael Teixeira** - [rgtzths](https://github.com/rgtzths)
