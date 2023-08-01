@@ -39,7 +39,7 @@ These are the results of the fANOVA analysis.
 
 #### General Importance
 
-| | All Datasets | | |
+| | **All Datasets** | | |
 |---|---|---| ---- |
 | Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 18.42 | 3.2 | 6.99 | 
@@ -52,7 +52,7 @@ These are the results of the fANOVA analysis.
 
 #### Importance by dataset type
 
-| |Classification| | |
+| |**Classification**| | |
 |---|---|---| ---- |
 | Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 78.09 | 12.18 | 32.23 | 
@@ -63,7 +63,7 @@ These are the results of the fANOVA analysis.
 | hidden_layer_dim | 16.12 | 10.57 | 64.82 | 
 | hidden_layer_size | 14.23 | 13.9 | 25.3 |
 
-| | Regression | | |
+| | **Regression** | | |
 |---|---|---| ---- |
 | Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 60.5 | 9.27 | 29.96 | 
@@ -76,9 +76,9 @@ These are the results of the fANOVA analysis.
 
 #### Importance per dataset
 
-| | |Abalone| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Abalone** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 14.77 | 1.39 | 4.39 | 
 | batch_size | 0.55 | 56.72 | 21.61 | 
 | loss | 0.0 | 1.62 | 0.0 | 
@@ -89,9 +89,9 @@ These are the results of the fANOVA analysis.
 
  
 
-| | |Bike_sharing| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Bike Sharing** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 51.26 | 0.59 | 24.54 | 
 | batch_size | 0.74 | 72.21 | 29.71 | 
 | loss | 0.06 | 0.0 | 0.0 | 
@@ -102,9 +102,9 @@ These are the results of the fANOVA analysis.
 
  
 
-| | |Compas| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Compas** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 3.4 | 0.4 | 0.08 | 
 | batch_size | 1.16 | 43.0 | 6.23 | 
 | loss | 33.98 | 0.19 | 0.0 | 
@@ -115,9 +115,9 @@ These are the results of the fANOVA analysis.
 
  
 
-| | |Covertype| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Covertype** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 29.22 | 12.77 | 4.01 | 
 | batch_size | 0.77 | 56.92 | 41.6 | 
 | loss | 0.06 | 0.0 | 10.34 | 
@@ -128,9 +128,9 @@ These are the results of the fANOVA analysis.
 
  
 
-| | |Delays_zurich| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Delays Zurich** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 0.37 | 3.57 | 5.2 | 
 | batch_size | 0.0 | 58.2 | 57.82 | 
 | loss | 39.27 | 0.0 | 0.01 | 
@@ -141,9 +141,9 @@ These are the results of the fANOVA analysis.
 
  
 
-| | |Higgs| |
-| Hyperparameter | Performance | Training Time | Inference Time |
+| | **Higgs** | | |
 |---|---|---| ---- |
+| Hyperparameter | Performance | Training Time | Inference Time |
 | activation_functions | 11.51 | 0.49 | 3.73 | 
 | batch_size | 2.46 | 48.6 | 69.07 | 
 | loss | 0.01 | 0.14 | 2.25 | 
@@ -156,9 +156,58 @@ These are the results of the fANOVA analysis.
 
 #### Best performing hyperparameter combination per dataset
 
-#### Baseline vs Best vs Worst performance comparison
 
 
+| Activation function | Batch size | Hidden layer dimension | Loss function | Optimizer | Learning Rate | MSE/MCC | Training time | Prediction Time|
+|---|---|---| ---- | --- |---|---|---| ---- |
+|| **Regression** ||
+| | | | | **Abalone** | | | | |
+| relu | 256 | [224, 192, 608, 768, 800] | mean_squared_error | adam | 0.001 | 2.158 | 1.928 | 0.107 |
+| | | | | **Bike Sharing** | | | | |
+| selu | 1024 | [352, 32, 288, 32, 544, 704, 96] | mean_squared_error | adam |0.001 | 59.748 | 3.621 | 0.128 |
+| | | | | **Delays Zurich** | | | | |
+| relu | 128 | [640, 416, 576, 192, 288, 32, 32] | mean_squared_error | adam | 0.001 | 3.101 | 73.694 | 0.286 |
+|| **Classification** ||
+| | | | | **Compass** | | | | |
+| relu | 512 | [512, 512, 512, 512] | categorical_crossentropy | adam | 0.001 | 0.041 | 1.567 | 0.118 |
+| | | | | **Covertype** | | | | |
+| relu | 512 | [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] | categorical_crossentropy | adam | 0.001 | 0.828 | 74.544 | 0.199 |
+| | | | | **Higgs** | | | | |
+| softsign | 512 | [224, 480, 64, 96, 768, 32, 928] | categorical_crossentropy | adam | 0.001 | 0.415 | 50.935 | 0.239 |
+
+
+
+
+
+#### Baseline vs Best vs Worst comparison
+
+The best and worst models were picked based on the performance metric
+
+| Dataset | Baseline | Best model | Worst model |
+|---|---|---| ---- | 
+| | **Performance** | **(MCC/MSE)** |
+|| **Regression** ||
+|Abalone | 2.289 | 2.158 | 9.295 |
+|Bike Sharing | 84.045 | 59.748 | 100.139  |
+| Delays Zurich | 3.107 | 3.101 | 154.627 |
+|| **Classification** ||
+| Compass | 0.022 | 0.041 | 0 |
+| Covertype | 0.812 | 0.828 | -0.001 |
+| Higgs | 0.256 | 0.415 | 0 |
+| | **Training Time** | |
+|Abalone | 1.465 | 1.928 | 2.554 |
+|Bike Sharing | 4.67 | 3.621 | 3.014 |
+| Delays Zurich | 12.74 | 73.694 | 7.25 |
+| Compass | 1.088 | 2.342 | 1.121 |
+| Covertype | 37.381 | 74.544 | 4.987 |
+| Higgs | 21.161 | 50.935 | 4.329 |
+| | **Inference Time** | |
+|Abalone | 0.11 | 0.107 | 0.101 |
+|Bike Sharing | 0.132 | 0.128 | 0.122 |
+| Delays Zurich | 0.136 | 0.286 | 0.149 |
+| Compass | 1.088 | 0.11 | 1.121 |
+| Covertype | 0.173 | 0.199 | 0.172 |
+| Higgs | 0.173 | 0.239 | 0.182 |
 
 ## Authors
 
