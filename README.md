@@ -216,3 +216,9 @@ The best and worst models were picked based on the performance metric
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Citation
+If you use this code, please cite our work:
+Teixeira, Rafael & Antunes, Mário & Sobral, Rúben & Martins, João & Gomes, Diogo & Aguiar, Rui. (2023). Exploring the Intricacies of Neural Network Optimization. 10.1007/978-3-031-45275-8_2. 
+
+[DOI](https://doi.org/10.1007/978-3-031-45275-8_2)
