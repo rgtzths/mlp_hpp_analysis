@@ -7,14 +7,13 @@ doi:
 message: "If you use this software, please cite it as bellow."
 type: software
 authors:
-  - given-names: Rafael
-    family-names: Teixeira
-    email: rafaelgteixeira@av.it.pt
-    affiliation: IT Aveiro
+  - given-names: "Rafael"
+    family-names: "Teixeira"
+    email: "rafaelgteixeira@av.it.pt"
+    affiliation: "IT Aveiro"
     orcid: 'https://orcid.org/0000-0001-7211-382X'
 date-released: 2023-10-10
 url: "https://github.com/rgtzths/mlp_hpp_analysis"
-version: 1.0.0
 preferred-citation:
   type: conference-paper
   authors:
@@ -36,6 +35,8 @@ preferred-citation:
   - family-names: "Aguiar"
     given-names: "Rui L."
     orcid: "https://orcid.org/0000-0003-0107-6253"
+  doi: "10.1007/978-3-031-45275-8_2"
+  title: "Exploring the Intricacies of Neural Network Optimization"
   conference:
     name: "Discovery Science"
     city: "Porto"
@@ -43,8 +44,7 @@ preferred-citation:
     country: "Portugal"
     date-start: 2023-10-09
     date-end: 2023-10-11
-  doi: "10.1007/978-3-031-45275-8_2"
-  title: "Exploring the Intricacies of Neural Network Optimization"
+
 
 
 license: MIT
