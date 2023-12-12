@@ -45,9 +45,6 @@ preferred-citation:
   start: 18 # First page number
   end: 32 # Last page number
   title: "Exploring the Intricacies of Neural Network Optimization"
-  isbn: "978-3-031-45275-8"
-  publisher: "Springer Nature Switzerland"
-  address: "Cham"
 
 
 license: MIT
