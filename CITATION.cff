@@ -4,8 +4,7 @@
 cff-version: 1.2.0
 title: 
 doi: 
-message: >-
-  If you use this software, please cite it as bellow.
+message: "If you use this software, please cite it as bellow."
 type: software
 authors:
   - given-names: Rafael
