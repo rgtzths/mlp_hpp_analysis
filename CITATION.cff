@@ -31,6 +31,7 @@ preferred-citation:
     given-names: "Rui L."
     orcid: "https://orcid.org/0000-0003-0107-6253"
   title: "Exploring the Intricacies of Neural Network Optimization"
+  doi: 10.1007/978-3-031-45275-8_2
   conference:
     name: "Discovery Science"
     city: "Porto"
