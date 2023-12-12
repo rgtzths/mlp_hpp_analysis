@@ -2,8 +2,8 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: 
-doi: 
+title: "Exploring the Intricacies of Neural Network Optimization"
+doi: "https://doi.org/10.1007/978-3-031-45275-8_2"
 message: "If you use this software, please cite it as bellow."
 type: software
 authors:
