@@ -5,8 +5,7 @@ cff-version: 1.2.0
 title: 
 doi: 
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+  If you use this software, please cite it as bellow.
 type: software
 authors:
   - given-names: Rafael
@@ -14,4 +13,41 @@ authors:
     email: rafaelgteixeira@av.it.pt
     affiliation: IT Aveiro
     orcid: 'https://orcid.org/0000-0001-7211-382X'
+date-released: 2023-10-10
+url: "https://github.com/rgtzths/mlp_hpp_analysis"
+version: 1.0.0
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Teixeira"
+    given-names: "Rafael"
+    orcid: "https://orcid.org/0000-0001-7211-382X'
+  - family-names: "Antunes"
+    given-names: "Mário"
+    orcid: "https://orcid.org/0000-0002-6504-9441"
+  - family-names: "Sobral"
+    given-names: "Rúben"
+    orcid: "https://orcid.org/0009-0001-4357-6582"
+  - family-names: "Martins"
+    given-names: "João"
+    orcid: "https://orcid.org/0009-0008-1193-2483"
+  - family-names: "Gomes"
+    given-names: "Diogo"
+    orcid: "https://orcid.org/0000-0002-5848-2802"
+  - family-names: "Aguiar"
+    given-names: "Rui L."
+    orcid: "https://orcid.org/0000-0003-0107-6253"
+
+  doi: "10.1007/978-3-031-45275-8_2"
+  journal: "Discovery Science"
+  month: 10
+  year: 2023
+  start: 18 # First page number
+  end: 32 # Last page number
+  title: "Exploring the Intricacies of Neural Network Optimization"
+  isbn: "978-3-031-45275-8"
+  publisher:"Springer Nature Switzerland"
+  address:"Cham"
+
+
 license: MIT
